@@ -3,16 +3,16 @@ package org.lessons.java.jsnack1;
 
 public class RegistroStudenti {
 	private Studente [] studenti;
+	int indice = 0;
 
 	
-	public void RegistroStudenti(int n) {
+	public void RegistroStudenti(int indice) {
 		//chiedo all'utente la lunghezza dell'array
-		this.studenti = new Studente[n];
+		this.studenti = new Studente[indice];
 	}
 		//per ogni elemento dell'array chiedo di inserire nome e cognome studente
-	public void aggiungiStudente(int n, Studente input) {
-			studenti[n]= input;
-			n++;
+	public void aggiungiStudente(int indice, Studente input) {
+			studenti[indice]= input;
 	}
 	
 		// metodo che stampa l'array
