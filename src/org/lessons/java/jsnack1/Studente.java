@@ -10,4 +10,7 @@ public class Studente {
 		
 	}
 	
+	public String studenteStringato() {
+		return name + " " + surname;
+	}
 }

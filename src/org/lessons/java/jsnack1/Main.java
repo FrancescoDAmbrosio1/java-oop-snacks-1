@@ -20,7 +20,7 @@ public class Main {
 			String name = input.next();
 			System.out.println("Indicare Nome del " + (i+1) + "° Studente: ");
 			String surname = input.next();
-			nuovoStudente.aggiungiStudente(n-1, new Studente(name, surname));
+			nuovoStudente.aggiungiStudente(new Studente(name, surname));
 		}
 		nuovoStudente.stampaStudente();
 	}
